@@ -20,7 +20,7 @@ A smart waste management solution that monitors garbage levels in real-time usin
 - **Power**: 12V DC Supply + Battery Backup
 
 ## 📊 System Architecture
-```mermaid
+
 graph TD
     A[Ultrasonic Sensor] -->|Distance Data| B[Arduino]
     C[DHT11 Sensor] -->|Temp/Humidity| B
